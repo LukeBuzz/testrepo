@@ -1,95 +1,81 @@
 <!DOCTYPE html>
-<!--Luke Busby
-    SIUC
-    Date Developed - 3/26/2023
-    Date Tested    - 3/26/2023
-    Audio downloaded from a free MP3 site. freesound.org
-    -->
-<!-- Comment Header for my website -->
-<html lang="en-US">
+<!-- @author Luke Busby, Busbys Printing Index Page  
+
+snap.mp3 Audio track from: https://freesound.org/people/Snapper4298/sounds/488223/
+
+Southern Illinois University  Developed: 5/5/2023 Tested: 5/7/2023
+-->
+<html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Busby's BIG  Bicycles</title>
-        <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="slicknav.css">
+        <title>Busby's 3D Printing</title> 
+        <link rel="shortcut icon" href="images/millicon.ico">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/slicknav.css"> 
+        <link rel="stylesheet" href="styles/home_print.css" media="print">
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
-        <script src="jquery.slicknav.min.js"></script> 
+        <script src="js/jquery.slicknav.min.js"></script> 
         <script type="text/javascript"> 
             $(document).ready(function(){
                 $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
             }); 
         </script>
 
-        <meta name="description" content="THE BEST BIKE SHOP"> <meta name="keywords, bike, BMX, outdoors" content="busby, Pro,
-        cycle, Trek, GT, BMX, Road Bikes, Mountain Bikes, 29'ers">
+        <meta name="description" content="A 3D Printing info site with custom prints"> <meta name="keywords" content="busby, prints, 3dprinting">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
     </head>
-    
-<!-- Body and header-->
     <body>
-            <figcaption>Busbys Bicycles</figcaption>
-            <figure class="bikeIMG">
-            <img class="bikeOne" src="images/bikeimg1.jpg"/>
-            <img class="bikeTwo" src="images/bikeimg2.jpg"/>
-            </figure>
+            <figcaption>Busby's 3D Printing</figcaption>
+            <figure class="cute">
+            <img  class="cute" src="images/Filamaent printer.jpg"/>
+            <img class="cuter" src="images/Resin Printer.jpg"/>
+            </figure> 
+            
         <header>
+        <!-- Smooth Audio Track (not really)  -->
         <audio controls autoplay loop hidden>
-            <source src="audio/251461__joshuaempyre__arcade-music-loop.wav" type="audio/mpeg">
+           <source src="audio/snap.mp3" type="audio/mpeg">
         </audio>
-        </header>
-
-        <header>
-            <div class="bluetouch"><img src="images/luke.jpg"alt="MPC Logo" width="500"></div>
-        </header>
-        <nav id="nav_menu"></nav>
-        <nav id="mobile_menu">
+     
+        </header> 
+       
+         <!-- Navigation Menu -->
+        <nav id="mobile_menu"></nav> 
+        <nav id="nav_menu"> 
             <ul>
-                <li><a href="index.html" class="current">Home</a> </li>
-                <li><a href="Sales.html" >Sales</a> </li>
-                <li><a href="rentals.html" >Rentals</a></li>
-                <li><a href="Services.html" >Services</a></li>
-                <li><a href="Contact.html" class="lastitem">Contact</a> </li>
-            <ul>
+                <li><a href="index.htm" class="current">Home</a></li> 
+                <li><a href="resin.htm">Resin</a></li> 
+                <li><a href="filament.htm" >Filament</a></li>
+                <li><a href="printers.htm" >Printers</a></li> 
+                <li><a href="contact.htm" class="lastitem">Contact</a></li>
+            </ul> 
         </nav>
-            <h1>Busby's Bikes</h1>
-            <h2>THE BEST BIKE SHOP.</h2>
-            <p>Come on down to our shop and check out the <em>amazing deals we have to offer.</em> From mountain bikes, to BMX bikes, to childrens bikes, we 
-                have it all!
-            </p>
-
-            <p><strong>Only carrying the best, we have 5 different models!<strong></p>
-            <!-- block quote -->
-            <blockquote>Specializing in: Road Bikes, Mountain Bikes, and BMX.
-            </blockquote>
-            <!--list of bikes with purchase links to the websites-->
+            <main>
+            <h2>3D Printing For Beginners </h2>
+            
+            <p class ="first">Getting into 3D Printing may seem intimidating, but it isn't as complicated as you think!</p>
+            <p >This site will go over the following:</p>
+            <!--list of bikes -->
             <ol>
-                <li>GT  <a href="https://www.bikeway.com/product/gt-la-bomba-rigid-385494-1.htm">www.bikeway.com </a>
-                <li>TREK <a href="https://www.trekbikes.com/us/en_US/">www.trekbikes.com</a>
-                <li> Gary Fisher <a href="https://www.thebikeshoppe.com/product-list/gary-fisher-pg146/">www.garyfisherbikes.com</a>
-                <li>HUFFY <a href="https://www.huffybikes.com/homepage2?gclid=Cj0KCQiAz9ieBhCIARIsACB0oGIgH0kJZ_PIEW-xHTWlbU1KGA7FDHgdY0IjxPtrSKQMQItdpgSpTzoaAtBpEALw_wcB&gclsrc=aw.ds">www.huffybikes.com</a>
-                <li>Schwinn <a href="https://www.schwinnbikes.com/">www.schwinnbikes.com</a>
-            </ol>
-                <!--inline element -->
-            <p>If you don't see the model you want, <em>we can order something you like.</em></p>
-            <p><strong>Don't be afraid to give us a call!</strong></p>
-            <p>Save a bundle at our <strong>big yearend sale</strong>.</p>
-            <p><em>Big end sale runs DECEMBER - JANUARY</em></p>
-            <!--link to help user decide what bike they want -->
-            <p><strong>Don't know what you want? Click the link below for the best bikes of 2023.</strong></p>
-            <a href="https://www.bicycle-guider.com/best-bike-brands/">www.2023bestbikes.com</a>
-
+                <li>Filment Printing</li> <li>Resin Printing</li> <li>Printers to use</li>
+            </ol> 
+              <!--inline element -->
+            <p>If you have any questions give us a call or come to the shop.</em></p> 
+            <p>Save a bundle at our <strong>big yearend sale</strong>.</p> 
+            </main>
+            <p>How to contact Luke Busby &amp; Staff:</p> 
+        
+            <address>1-618-751-2897<br></address>
             <pre>
-<!-- My stores address -->
-Store Address:
-
-Busby's Bikes
+            
+<!-- my address -->
+Mailing Address:
+Busby's Printing
 604 David Livingstone Dr
-Carterville
-IL, 62918
-<!-- Contact information for customer to contact-->
-<p>How to contact Luke Busby &amp; Staff:</p> <address>1-800-aaa-xxxx<br>
-<!-- Includes the email address-->
-<a href="emailto:owner@mpc.com">luke.busby@siu.edu</a> </address>
-            </pre>
-    </body>
+Carterville,IL
+62918
+            </pre> 
+     </body>
 
 </html>
